@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen, projection" />
+		<link rel="shortcut icon" href="/Image/rin.ico" >
+		<title>Andrew Williams' Portfolio - Content</title>
+		<div class="header">
+			<a href="/index.html"><img src="/Image/card.png" alt="logo"/></a>
+		</div>
+		<div class="navbar">
+			<a href="/index.html"><img src="/Image/button_home.png"/></a><a href="/content.html"><img src="/Image/button_content.png"/></a><a href="/contact.html"><img src="/Image/button_contact.png"/></a>
+			<hr>
+		</div>
+	</head>
+	<body>
+
+		<div class="content">
+			<div class="container">
+				<img src="/Image/artifact_thumb.png" alt="logo" class="floatingimage"/>
+				<font size="5" color=#00FF00><b><p align="center">2012-Present: Artifact</p></b></font>
+				<font size="4" color=#FFFFFF><b><p align="center">Programmer: Unity C#</p></b></font>
+				<font size="3" color=#FFFFFF><p>
+					This is a school project and the second game where I have been in a development group. I was working as a programmer for this 3D game.<br>
+				</p></font>
+			</div>
+			<div class="container">
+				<a href="/Games/owab.html"><img src="/Image/owab_thumb.png" alt="logo" class="floatingimage"/></a>
+				<font size="5" color=#00FF00><b><p align="center">2012-2013: Out with a bang</p></b></font>
+				<font size="4" color=#FFFFFF><b><p align="center">Programmer: FlashDevelop Haxe</p></b></font>
+				<font size="3" color=#FFFFFF><p>
+					This is a school project and the first game where I have been in a development group. I was working as a programmer for this 2D game.<br>
+					This game involves progressing through levels, solving puzzles with each character possessing different abilities.<br>
+				</p></font>
+				<font size="3" color=#FFFFFF><p>Current state is complete, the game may be accessed by clicking <a href="/Games/owab.html">here</a>.</p></font>
+			</div>
+			<div class="container">
+				<a href="JavaScript:loadGame('RANDOMIZER GAME');"><img src="/Image/randomizer_thumb.png" alt="logo" class="floatingimage"/></a>
+				<font size="5" color=#00FF00><b><p align="center">2012-2013: Randomizer Game</p></b></font>
+				<font size="4" color=#FFFFFF><b><p align="center">Created using Adobe Flash, Art using Paint and Adobe Photoshop</p></b></font>
+				<font size="3" color=#FFFFFF><p>
+					This game started out as a side project to learn and improve on my programming skills and logic, which eventually became an active school assignment and became what it is right now.<br>
+					The game is a top down shooter which uses a randomization room mechanic with a weapon slot system. Every level will never be the same as a new set of rooms will always be randomly generated with random items and enemies within.
+				</p></font>
+				<font size="3" color=#FFFFFF><p>Current state is incomplete, however, the game may be accessed by clicking <a href="JavaScript:loadGame('RANDOMIZER GAME');">here</a>.</p>
+				</font>
+			</div>
+			<div class="container">
+				<a href="JavaScript:loadGame('AIRPLANE GAME');"><img src="/Image/airplane_thumb.png" alt="logo" class="floatingimage"/></a>
+				<font size="5" color=#00FF00><b><p align="center">2012-2013: Airplane Game</p></b></font>
+				<font size="4" color=#FFFFFF><b><p align="center">Created using Adobe Flash, Art using Paint and Adobe Photoshop</p></b></font>
+				<font size="3" color=#FFFFFF><p>
+					This is the first flash game I have ever worked on. It was a school assignment to learn programming and I have worked beyond it's due date for the game to become what it is now.<br>
+				</font>
+				<font size="3" color=#FFFFFF><p>Current state is incomplete, however, the game may be accessed by clicking <a href="JavaScript:loadGame('AIRPLANE GAME');">here</a>.</p></font>
+				<font size="3" color=#FFFFFF><p>Remake <a href="JavaScript:loadGame('AIRPLANE GAME REMAKE');">here</a>.</p></font>
+				</p></font>
+				<font size="3" color=#FFFFFF><p><b>Additional Information:</b> All music in this game is from <a href="http://cyber-rainforce.net/english.html" target="_blank">Cyber-Rainforce</a>. Copyright rules are on his page for reference.</p></font>
+				</p></font>
+			</div>
+			<div class="container">
+				<a href="http://www.youtube.com/watch?v=SuM98sV9C5Y"><img src="/Image/tempest_thumb.png" alt="logo" class="floatingimage"/></a>
+				<font size="5" color=#00FF00><b><p align="center">2013: UDK Atari Game Remake Project</p></b></font>
+				<font size="4" color=#FFFFFF><b><p align="center">Created using Unreal Development Kit</p></b></font>
+				<font size="3" color=#FFFFFF><p>
+					Description
+				</p></font>
+				<font size="3" color=#FFFFFF><p>Current state is complete in a playable state. A video may be accessed <a href="http://www.youtube.com/watch?v=SuM98sV9C5Y">here</a> and the soure accessed <a href="Files/AtariMidterm_Andrew_Williams.udk">here</a>.</p></font>
+				</p></font>
+				<font size="3" color=#FFFFFF><p><b>Additional Information:</b> All sounds in this game is from <a href="http://www.atari.com/" target="_blank">Atari</a>.</p></font>
+				</p></font>
+			</div>
+		</div>
+		
+	</body>
+</html>
+
+<script type="text/javascript">
+// SCRIPTS IN JAVASCRIPT OVER HERE MANG
+function loadGame(identifier)
+{
+	switch (identifier)
+	{
+		case "AIRPLANE GAME":
+			popupWindow = window.open('/Games/airplane.html','popUpWindow','height=936,width=610,left=0,top=0,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+			break;
+		case "RANDOMIZER GAME":
+			popupWindow = window.open('/Games/randomizer.html','popUpWindow','height=800,width=700,left=0,top=0,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+			break;
+		case "AIRPLANE GAME REMAKE":
+			popupWindow = window.open('/Games/airplane2.html','popUpWindow','height=936,width=610,left=0,top=0,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no')
+			break;
+		default:
+		//	popupWindow = window.open('errorimage.html','popUpWindow','width=633,height=506,left=0,top=0,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=no');
+			break;
+		
+	}
+}
+</script>

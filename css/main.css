@@ -1,0 +1,115 @@
+.header
+{
+	/* This is position settings */
+	position: fixed; /* Makes it so the header stays */
+	top: 0px; /* REMOVE THE STUPID PADDING SO DUMB */
+	left: 0px;
+	right: 0px;
+	/* This makes it so it takes up the entire left-right of page */
+    width:100%;
+	/* This centers everything */
+	text-align:center;
+	/* Background colour */
+	background-color:#000000;
+}
+.demoreel
+{
+	background-color:#000000;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	height: 604px;
+	overflow-y:hidden; 
+	overflow-x:hidden;
+}
+.navbar
+{
+	position:fixed;
+	top:133px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	text-align:center;
+	background-color:#000000;
+	
+}
+.content
+{ 
+	background-color:#000000;
+    position:absolute;
+    top: 180px; /* this has to be the absolute bottom of the header */
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:auto;        
+}
+
+.contentresizegame
+{ 
+	background-color:#000000;
+    position:absolute;
+    top: 180px; /* this has to be the absolute bottom of the header */
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:hidden;        
+	overflow-x:hidden;
+}
+
+.error
+{
+	background-color:#000000;
+    position:absolute;
+    top: 165px; /* this has to be the absolute bottom of the header */
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:hidden; 
+	overflow-x:hidden;
+	text-align:center;
+}
+
+.errorpopup
+{
+	background-color:#000000;
+    position:absolute;
+    top: 0px; /* this has to be the absolute bottom of the header */
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:hidden; 
+	overflow-x:hidden;
+	text-align:center;
+}
+.game
+{
+	background-color:#000000;
+    position:absolute;
+    top: 0px; /* this has to be the absolute bottom of the header */
+    left:0px;
+    right:0px;
+    bottom:0px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.container
+{
+	background-color:#555555;
+	position:relative;
+	left: 5%;
+	right: 5%;
+	text-align: left;
+	border-style: ridge;
+	border-width:8px;
+	width: 90%;
+	height: 264px;
+	overflow:auto
+}
+
+img.floatingimage
+{
+	float: left;
+	border-style: double;
+	border-width: 4px;
+}
